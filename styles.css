@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Space+Mono:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -67,6 +70,8 @@ body {
 .ele-name {
     display: inline;
     margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: baseline;
 }
 
 a {
@@ -94,4 +99,10 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+.codingLogo{
+    width: 55px;
+    height: 55px;
+    vertical-align: middle;
 }
